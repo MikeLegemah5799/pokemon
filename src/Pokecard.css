@@ -1,0 +1,29 @@
+@import './styles/breakpoints.css';
+
+.Pokecard {
+    border-radius: 6px;
+    background-color: #fff;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 10px solid #2a75bb;
+    min-height: 500px;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}
+
+.Pokecard-title {
+    color: #3c5aa6;
+}
+
+.Pokecard-data {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 48em) {
+    .Pokecard {
+        margin: 1rem;
+        max-width: 300px;
+        padding: 10px;
+    }
+}
